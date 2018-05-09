@@ -8,11 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    private background img0,img1;
-    /**
-     * Constructor for objects of class MyWorld.
-     * 
-     */
+    private background img0,img1,img2,img3;
+    private int[] GroundX;
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -23,6 +20,19 @@ public class MyWorld extends World
         
         img1 = new background();
         addObject(img1, getWidth()+getWidth()/2,getHeight()/2);
+        
+        img2 =new background();
+        addObject(img2, getWidth()*2, getHeight()*2);
+        
+        img3 = new background();
+        addObject(img3, getWidth()-getWidth()*2,getHeight()*2);
+        
+        int x = 25;
+        for(int G=0; G<25; G++)
+        {
+            addObject(new ground(),x,490);
+            x= x+39;
+        }
     }
     
     public void act()
@@ -31,6 +41,11 @@ public class MyWorld extends World
         {
             img0.scroll();
             img1.scroll();
+        }
+        if(Greenfoot.isKeyDown("left"))
+        {
+            img2.scroll();
+            img3.scroll();
         }
     }
 }

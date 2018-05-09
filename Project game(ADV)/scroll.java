@@ -15,5 +15,14 @@ public class scroll extends Actor
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    
+    public void scroll()
+    {
+        if(getX()<-getImage().getWidth()/2)
+        {
+            setLocation(getWorld().getWidth()+498,getY());
+        }
+        setLocation(getX()-2,getY());
+    }
 }
