@@ -1,16 +1,15 @@
-
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class gameover here.
+ * Write a description of class ground3 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class gameover extends Actor
+public class ground3 extends scroll
 {
     /**
-     * Act - do whatever the gameover wants to do. This method is called whenever
+     * Act - do whatever the ground3 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
