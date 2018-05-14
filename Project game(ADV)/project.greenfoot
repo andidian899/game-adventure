@@ -15,8 +15,11 @@ class.ground.image=2.png
 class.ground.superclass=scroll
 class.ground2.image=3.png
 class.ground2.superclass=scroll
+<<<<<<< HEAD
 class.ground3.image=1.png
 class.ground3.superclass=scroll
+=======
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 class.scroll.superclass=greenfoot.Actor
 dependency1.from=MyWorld
 dependency1.to=background
@@ -33,7 +36,15 @@ mainWindow.width=1382
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=2
+<<<<<<< HEAD
 package.numTargets=9
+=======
+<<<<<<< HEAD
+package.numTargets=8
+=======
+package.numTargets=7
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -50,7 +61,15 @@ target1.width=80
 target1.x=0
 target1.y=0
 target2.height=50
+<<<<<<< HEAD
 target2.name=background
+=======
+<<<<<<< HEAD
+target2.name=ground2
+=======
+target2.name=chara
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
@@ -58,7 +77,15 @@ target2.width=90
 target2.x=0
 target2.y=0
 target3.height=50
+<<<<<<< HEAD
 target3.name=ground2
+=======
+<<<<<<< HEAD
+target3.name=chara
+=======
+target3.name=scroll
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target3.showInterface=false
 target3.type=ClassTarget
 target3.typeParameters=
@@ -66,7 +93,15 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
+<<<<<<< HEAD
 target4.name=chara
+=======
+<<<<<<< HEAD
+target4.name=scroll
+=======
+target4.name=enemy
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -74,7 +109,15 @@ target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
+<<<<<<< HEAD
 target5.name=scroll
+=======
+<<<<<<< HEAD
+target5.name=enemy
+=======
+target5.name=ground
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -82,7 +125,15 @@ target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
 target6.name=enemy
+=======
+<<<<<<< HEAD
+target6.name=ground
+=======
+target6.name=MyWorld
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
@@ -90,21 +141,36 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
+<<<<<<< HEAD
 target7.name=ground
+=======
+<<<<<<< HEAD
+target7.name=MyWorld
+=======
+target7.name=gameover
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
 target7.width=80
 target7.x=0
 target7.y=0
+<<<<<<< HEAD
 target8.height=50
 target8.name=MyWorld
+=======
+<<<<<<< HEAD
+target8.height=50
+target8.name=gameover
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
 target8.width=80
 target8.x=0
 target8.y=0
+<<<<<<< HEAD
 target9.height=50
 target9.name=gameover
 target9.showInterface=false
@@ -113,5 +179,9 @@ target9.typeParameters=
 target9.width=80
 target9.x=0
 target9.y=0
+=======
+=======
+>>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
+>>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 version=3.0.0
 world.lastInstantiated=MyWorld
