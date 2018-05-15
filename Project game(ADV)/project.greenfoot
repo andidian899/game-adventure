@@ -1,187 +1,121 @@
-#Greenfoot project file
-=\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=7f93bfbcde18972cb2198537a9f49f8f5b77297d
-class.MyWorld.superclass=greenfoot.World
-class.background.image=Autumn-Game-Background.jpg
-class.background.superclass=scroll
-class.chara.image=Idle\ (1).png
-class.chara.superclass=scroll
-class.enemy.image=enemy2.png
-class.enemy.superclass=scroll
-class.gameover.superclass=greenfoot.Actor
-class.gound.superclass=scroll
-class.ground.image=2.png
-class.ground.superclass=scroll
-class.ground2.image=3.png
-class.ground2.superclass=scroll
-<<<<<<< HEAD
-class.ground3.image=1.png
-class.ground3.superclass=scroll
-=======
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-class.scroll.superclass=greenfoot.Actor
-dependency1.from=MyWorld
-dependency1.to=background
-dependency1.type=UsesDependency
-dependency2.from=MyWorld
-dependency2.to=ground
-dependency2.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=-4
-mainWindow.height=744
-mainWindow.width=1382
-mainWindow.x=-8
-mainWindow.y=-8
-package.numDependencies=2
-<<<<<<< HEAD
-package.numTargets=9
-=======
-<<<<<<< HEAD
-package.numTargets=8
-=======
-package.numTargets=7
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-project.charset=UTF-8
-readme.height=58
-readme.name=@README
-readme.width=47
-readme.x=10
-readme.y=10
-simulation.speed=61
-target1.height=50
-target1.name=ground3
-target1.showInterface=false
-target1.type=ClassTarget
-target1.typeParameters=
-target1.width=80
-target1.x=0
-target1.y=0
-target2.height=50
-<<<<<<< HEAD
-target2.name=background
-=======
-<<<<<<< HEAD
-target2.name=ground2
-=======
-target2.name=chara
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target2.showInterface=false
-target2.type=ClassTarget
-target2.typeParameters=
-target2.width=90
-target2.x=0
-target2.y=0
-target3.height=50
-<<<<<<< HEAD
-target3.name=ground2
-=======
-<<<<<<< HEAD
-target3.name=chara
-=======
-target3.name=scroll
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target3.showInterface=false
-target3.type=ClassTarget
-target3.typeParameters=
-target3.width=80
-target3.x=0
-target3.y=0
-target4.height=50
-<<<<<<< HEAD
-target4.name=chara
-=======
-<<<<<<< HEAD
-target4.name=scroll
-=======
-target4.name=enemy
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target4.showInterface=false
+#Greenfoot properties
+#Tue May 15 14:31:09 SGT 2018
 target4.type=ClassTarget
-target4.typeParameters=
-target4.width=80
-target4.x=0
-target4.y=0
-target5.height=50
-<<<<<<< HEAD
-target5.name=scroll
-=======
-<<<<<<< HEAD
-target5.name=enemy
-=======
-target5.name=ground
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target5.showInterface=false
-target5.type=ClassTarget
-target5.typeParameters=
-target5.width=80
-target5.x=0
-target5.y=0
-target6.height=50
-<<<<<<< HEAD
-target6.name=enemy
-=======
-<<<<<<< HEAD
-target6.name=ground
-=======
-target6.name=MyWorld
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target6.showInterface=false
-target6.type=ClassTarget
-target6.typeParameters=
-target6.width=80
-target6.x=0
-target6.y=0
-target7.height=50
-<<<<<<< HEAD
-target7.name=ground
-=======
-<<<<<<< HEAD
-target7.name=MyWorld
-=======
-target7.name=gameover
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
-target7.showInterface=false
-target7.type=ClassTarget
-target7.typeParameters=
-target7.width=80
-target7.x=0
-target7.y=0
-<<<<<<< HEAD
-target8.height=50
-target8.name=MyWorld
-=======
-<<<<<<< HEAD
-target8.height=50
-target8.name=gameover
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
+<<<<<<<=HEAD
 target8.showInterface=false
-target8.type=ClassTarget
-target8.typeParameters=
+class.chara.superclass=scroll
+dependency3.from=MyWorld
+target3.height=50
+class.scroll.superclass=greenfoot.Actor
+target5.height=50
+readme.y=10
+dependency3.type=UsesDependency
+readme.x=10
+target4.name=enemy
 target8.width=80
-target8.x=0
-target8.y=0
-<<<<<<< HEAD
-target9.height=50
-target9.name=gameover
-target9.showInterface=false
-target9.type=ClassTarget
+class.ground2.image=3.png
+target4.typeParameters=
+readme.width=47
+editor.fx.0.width=816
+target1.height=50
+target5.type=ClassTarget
+target3.typeParameters=
+mainWindow.width=1382
+class.background.image=Autumn-Game-Background.jpg
+class.ground.image=2.png
+>>>>>>>=93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
+target2.width=90
+target5.name=ground
 target9.typeParameters=
-target9.width=80
-target9.x=0
-target9.y=0
-=======
-=======
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 version=3.0.0
+class.ground2.superclass=scroll
+target6.type=ClassTarget
+dependency1.to=ground
+target7.width=80
+dependency2.to=background
+target1.width=90
+editor.fx.0.y=-4
+editor.fx.0.x=275
+target2.typeParameters=
+target8.height=50
+dependency3.to=ground
+target3.showInterface=false
+target6.name=MyWorld
+target7.showInterface=false
+target8.typeParameters=
+target1.showInterface=false
+class.background.superclass=scroll
+class.gound.superclass=scroll
+target5.showInterface=false
+target9.y=0
+target7.type=ClassTarget
+target6.width=80
+target9.x=0
+target9.showInterface=false
+target6.height=50
+package.numTargets=7
+target8.y=0
+target8.x=0
+target7.typeParameters=
+target1.type=ClassTarget
+target7.y=0
+class.ground3.superclass=scroll
+target7.x=0
+target7.name=gameover
+target6.y=0
+target1.typeParameters=
+target6.x=0
+target2.height=50
+target5.y=0
+target4.height=50
+target5.x=0
+target1.name=background
+target8.type=ClassTarget
+target4.y=0
+target4.x=0
+class.chara.image=Idle (1).png
+target3.y=0
+target3.x=0
+target2.type=ClassTarget
+target2.y=0
+target2.x=0
+class.MyWorld.superclass=greenfoot.World
+mainWindow.y=-8
+class.enemy.superclass=scroll
+mainWindow.x=-8
+target8.name=MyWorld
+target6.typeParameters=
+dependency1.from=chara
+target5.width=80
+target1.y=0
+editor.fx.0.height=739
+target1.x=0
+dependency1.type=UsesDependency
+readme.height=58
+class.gameover.superclass=greenfoot.Actor
+target2.name=chara
+readme.name=@README
+target9.type=ClassTarget
+package.numDependencies=3
+simulation.speed=61
+class.ground.superclass=scroll
+target3.type=ClassTarget
+target4.width=80
+class.ground3.image=1.png
+target9.name=gameover
+dependency2.from=MyWorld
+dependency2.type=UsesDependency
+target5.typeParameters=
 world.lastInstantiated=MyWorld
+class.enemy.image=enemy2.png
+mainWindow.height=744
+target2.showInterface=false
+target3.name=scroll
+target7.height=50
+target9.height=50
+target6.showInterface=false
+target9.width=80
+project.charset=UTF-8
+target3.width=80
+target4.showInterface=false
+=\=\=\=\=\=\=

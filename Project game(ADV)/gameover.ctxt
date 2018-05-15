@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
 #BlueJ class context
 comment0.target=gameover
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ gameover\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
@@ -9,15 +5,3 @@ comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ gameover\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 numComments=2
-<<<<<<< HEAD
-=======
-=======
-#BlueJ class context
-comment0.target=gameover
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ gameover\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ gameover\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
->>>>>>> 7f93bfbcde18972cb2198537a9f49f8f5b77297d
->>>>>>> 93c82189edddc2fd94d86d8cf2b3c556e8ba41e5
