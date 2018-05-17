@@ -21,11 +21,11 @@ public class MyWorld extends World
         img1 = new background();
         addObject(img1, getWidth()+getWidth()/2,getHeight()/2);
         
-        int x = 0;
+        int x = 25;
         for(int G=0; G<25; G++)
         {
-            addObject(new ground(),x,470);
-            x= x+50;
+            addObject(new ground(),x,490);
+            x= x+39;
         }
     }
 }

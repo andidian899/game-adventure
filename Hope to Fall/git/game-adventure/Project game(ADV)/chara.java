@@ -6,46 +6,37 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class chara extends Actor
+public class chara extends scroll
 {
-    private int speed =3;
-    private int vSpeed = 0;
+    private int speed =7;
+    private int vspeed = 1;
     private int acceleration =1;
+    /**
+     * Act - do whatever the chara wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
     public void act() 
     {
-        checkKey();
-        fall();
-    }  
+       checkKey();
+       fall();
+    }    
     private void checkKey()
     {
         if(Greenfoot.isKeyDown("left"))
         {
-            setImage("chara2.png");
+            setImage("chara-left.png");
             moveLeft();
         }
         if(Greenfoot.isKeyDown("right"))
         {
-            setImage("chara.png");
+            setImage("chara-right.png");
             moveRight();
         }
-        if(Greenfoot.isKeyDown("up"))
-        {
-            setLocation(getX(),getY()-1);
-            jump();
-        }
-    }
-    private void jump()
-    {
-        vSpeed = -1;
-        fall();
     }
     public void fall()
     {
-        if(!isTouching(ground.class)){
-            setLocation(getX(),getY()+ vSpeed);
-            vSpeed = vSpeed + acceleration;
-        }
-        
+        setLocation(getX(),getY()+ vspeed);
+        vspeed = vspeed + acceleration;
     }
     public void moveRight()
     {
@@ -53,7 +44,7 @@ public class chara extends Actor
     }
     public void moveLeft()
     {
-        setLocation(getX()-speed,getY());
-    }   
+        setLocation(getX()+speed,getY());
+    }
     
 }
