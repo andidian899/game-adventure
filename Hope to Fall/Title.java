@@ -8,7 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Title extends World
 {
-
+    public chara Chara = new chara();
+    
     /**
      * Constructor for objects of class Title.
      * 
@@ -16,6 +17,10 @@ public class Title extends World
     public Title()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(1025, 512, 1); 
+        
+        start Start = new start();
+        addObject(Start,450,430);
+        
     }
 }

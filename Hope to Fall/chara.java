@@ -8,41 +8,59 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class chara extends Actor
 {
-    private int speed =3;
+    private int speed =7;
     private int vSpeed = 0;
     private int acceleration =1;
+    double middle=0;
+    double bottom = 1.3;
+    double start =-15;
+    
     public void act() 
     {
         checkKey();
         fall();
-    }  
+        
+        if(getY()>getWorld().getHeight())
+        {
+        gameover GameOver =new gameover();
+        restart Restart = new restart();
+        exit Exit = new exit();
+        getWorld().addObject(GameOver,522,256);
+        
+        getWorld().addObject(Restart,480,350);
+        getWorld().addObject(Exit,580,350);
+        //Greenfoot.stop();
+    }
+        middle = middle + bottom;
+       
+   }
     private void checkKey()
     {
         if(Greenfoot.isKeyDown("left"))
         {
-            setImage("chara2.png");
+            setImage("idle4.png");
             moveLeft();
         }
         if(Greenfoot.isKeyDown("right"))
         {
-            setImage("chara.png");
+            setImage("idle3.png");
             moveRight();
         }
         if(Greenfoot.isKeyDown("up"))
         {
-            setLocation(getX(),getY()-1);
+            setLocation(getX(),getY()-10);
             jump();
         }
     }
     private void jump()
     {
-        vSpeed = -1;
+        vSpeed = -5;
         fall();
     }
     public void fall()
     {
         if(!isTouching(ground.class)){
-            setLocation(getX(),getY()+ vSpeed);
+            setLocation(getX()+0,getY()+ vSpeed);
             vSpeed = vSpeed + acceleration;
         }
         
@@ -54,6 +72,7 @@ public class chara extends Actor
     public void moveLeft()
     {
         setLocation(getX()-speed,getY());
-    }   
+    }
     
 }
+

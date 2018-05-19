@@ -6,16 +6,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class gameover extends World
+public class gameover extends Actor
 {
-
     /**
-     * Constructor for objects of class gameover.
-     * 
+     * Act - do whatever the gameover wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public gameover()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-    }
+    public void act() 
+    {
+        // Add your action code here.
+    }    
 }
