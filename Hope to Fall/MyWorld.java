@@ -38,7 +38,7 @@ public class MyWorld extends World
     private void grnd()
     {
         counter++;
-        if(counter == 90)
+        if(counter == 80)
         {
             int i = Greenfoot.getRandomNumber(5);
           addObject(new ground(),getWidth(),position[i]);

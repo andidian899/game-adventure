@@ -17,6 +17,7 @@ public class start extends Actor
         if(Greenfoot.mouseClicked(this))
         {
             Greenfoot.setWorld(new MyWorld());
+             Greenfoot.playSound("SpinningMonkeys.mp3");
         }   
     }
 }
