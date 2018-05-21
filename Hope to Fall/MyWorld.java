@@ -33,15 +33,15 @@ public class MyWorld extends World
     {
       grnd();  
     }
-    int position[] = {100,200,300,400,500,600};
-    ground Ground = new ground();
+    int position[] = {250,300,350,400,450,500};
+    ground2 Ground = new ground2();
     private void grnd()
     {
         counter++;
         if(counter == 80)
         {
             int i = Greenfoot.getRandomNumber(5);
-          addObject(new ground(),getWidth(),position[i]);
+          addObject(new ground2(),getWidth(),position[i]);
           counter =0    ;
         }
     }

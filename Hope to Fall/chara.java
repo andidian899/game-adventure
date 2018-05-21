@@ -14,26 +14,29 @@ public class chara extends Actor
     double middle=0;
     double bottom = 1.3;
     double start =-15;
-    
+    private int score = 0;
+    boolean countering = true;
+
     public void act() 
     {
         checkKey();
         fall();
-        
+        counter();
         if(getY()>getWorld().getHeight())
         {
-        gameover GameOver =new gameover();
-        restart Restart = new restart();
-        exit Exit = new exit();
-        getWorld().addObject(GameOver,522,256);
-        
-        getWorld().addObject(Restart,480,350);
-        getWorld().addObject(Exit,580,350);
-        //Greenfoot.stop();
-    }
+            gameover GameOver =new gameover();
+            restart Restart = new restart();
+            exit Exit = new exit();
+            getWorld().addObject(GameOver,522,256);
+
+            getWorld().addObject(Restart,480,350);
+            getWorld().addObject(Exit,580,350);
+            //Greenfoot.stop();
+        }
         middle = middle + bottom;
-       
-   }
+
+    }
+
     private void checkKey()
     {
         if(Greenfoot.isKeyDown("left"))
@@ -52,27 +55,51 @@ public class chara extends Actor
             jump();
         }
     }
+
     private void jump()
     {
-        vSpeed = -5;
+        vSpeed = -2;
         fall();
     }
+
     public void fall()
     {
-        if(!isTouching(ground.class)){
-            setLocation(getX()+0,getY()+ vSpeed);
-            vSpeed = vSpeed + acceleration;
+        if(!isTouching(ground.class))
+        {
+            if(!isTouching(ground2.class))
+            {
+                setLocation(getX()+3,getY()+ vSpeed);
+                vSpeed = vSpeed + acceleration;
+            }
         }
-        
+
     }
+
+    public void counter()
+    {
+        if(isTouching(ground2.class))
+        {
+            if(countering == true)
+            {
+                score +=5;
+                countering = false;
+            }
+        }
+        else{
+            countering = true;
+        }
+        getWorld().showText("Score :"+score,522,25);
+    }
+
     public void moveRight()
     {
         setLocation(getX()+speed,getY());
     }
+
     public void moveLeft()
     {
         setLocation(getX()-speed,getY());
     }
-    
+
 }
 
