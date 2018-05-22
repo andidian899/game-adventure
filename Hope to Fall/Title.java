@@ -20,7 +20,9 @@ public class Title extends World
         super(1025, 512, 1); 
         
         start Start = new start();
+        informasi Informasi = new informasi();
         addObject(Start,450,430);
+        addObject(Informasi,950,450);
         
     }
 }
